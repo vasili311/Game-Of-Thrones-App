@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Nothing",
+    "slug": "Nothing",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appstore.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "449e91bc-d977-47b2-b8c5-9d0adbdd3c6f"
+      }
+    }
+  }
+}
